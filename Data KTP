@@ -1,0 +1,33 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	char nama[30];
+	char nik[20];
+	char tempat_tanggal_lahir[50];
+	char jenis_kelamin[20];
+	char alamat[50];
+	char agama[20];
+	char status_perkawinan[30];
+	char pekerjaan;
+	cout<<"Data KTP"<<endl;
+	cout<<"NIK : ";
+	cin.getline (nik,20);
+	cout<<"Nama : ";
+	cin.getline(nama,30);
+	cout<<"Tempat Tanggal Lahir : ";
+	cin.getline(tempat_tanggal_lahir,50);
+	cout<<"Jenis Kelamin : ";
+	cin.getline(jenis_kelamin,20);
+	cout<<"Alamat : ";
+	cin.getline(alamat,50);
+	cout<<"Agama : ";
+	cin.getline(agama,20);
+	cout<<"Status Perkawinan : ";
+	cin.getline(status_perkawinan,30);
+	cout<<"Pekerjaan : ";
+	cin>>pekerjaan;
+	
+getch();
+}
